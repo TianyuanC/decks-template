@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "gatsby develop",
+    "start": "npm run clean && gatsby develop",
     "clean": "gatsby clean",
     "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve --prefix-paths",
     "gh-pages": "npx gh-pages -d public",
     "deploy": "npm run clean && npm run build && npm run gh-pages"
   },
