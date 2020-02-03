@@ -2,13 +2,13 @@
   "name": "slide-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "gatsby develop",
     "clean": "gatsby clean",
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve --prefix-paths",
-    "gh-pages": "npx gh-pages -d public"
+    "gh-pages": "npx gh-pages -d public",
+    "deploy": "npm run clean && npm run build && npm run gh-pages"
   },
   "dependencies": {
     "gatsby": "*",
