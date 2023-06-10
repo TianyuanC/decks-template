@@ -12,7 +12,7 @@
   "dependencies": {
     "@code-surfer/themes": "^3.0.0",
     "code-surfer": "^3.0.0",
-    "gatsby": "^2.19.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-catch-links": "^2.1.2",
     "gatsby-theme-mdx-deck": "^3.1.0",
     "mdx-deck": "^3.1.0",
